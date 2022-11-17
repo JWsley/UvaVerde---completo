@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-y: none;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+body{
+
+
+    width: 1920px;
+    height: 1820px;
+
+}
+/*========================= HEADER ---------============================*/
+.logo{
+    margin-left: 3%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 113px;
+    width: 1920px;
+    background-color: #25004A;
+}
+
+
+
+
+.nav{
+    color:white;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+.navb{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+li{
+    margin-left: 3px;
+    list-style: none;
+    padding: 5px;
+}
+
+
+.contato{
+   border-left: 2px solid white;
+   border-right: 2px solid white;
+}
+
+a{
+    color: white;
+}
+
+.redes_sociais{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+   right: 10px;
+    z-index: 2;
+}
+
+#instagram {
+    width: 40px;
+    position: relative;
+    height: 40px;
+    right: 10px;
+    margin-top: 15px;
+}
+
+#facebook {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    right: 10px;
+    margin-top: 10px;
+}
+
+#whatsapp {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    right: 10px;
+    margin-top: 10px;
+}
+
+/*========================= -------------- ---------============================*/
+
+/*========================= MAIN ---------============================*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+    height: 1629px;
+    width: 1920px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.minicont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navegation{
+    width: 655px;
+    height: 47px;
+   }
+
+   .navegation a{
+    cursor:pointer;
+   }
+
+.bt1,.bt2,.bt3{
+    width: 214px;
+    height: 48px;
+    background: none;
+    border-radius: 1px;
+    margin-left: -5px;
+    border: none;
+    border-left: 3px solid   #D9D9D9;
+    border-right:3px solid   #D9D9D9 ;
+    cursor: pointer;
+    outline: none;
+    z-index: 1;
+}
+
+
+.bt1{
+    border-bottom: 3px solid #C384CC;
+}
+
+.bt2{
+    border-bottom: 3px solid #3D97EE;
+}
+
+.bt3{
+    border-bottom: 3px solid #D2AD27;
+}
+
+
+
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    margin-top: 30px;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 50px;
+    height: 300px;
+    width: 1000px;
+    border:2px solid #000000;
+    background-color: #97c5f0;
+    color: white;
+}
+
+.image{
+    height: 127px;
+    width: 127px;
+}
+
+.slider {
+    height: 446px;
+    width: 1087px;
+    margin: auto;
+    margin-top: -1570px;
+    position: relative;
+ 
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+    
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #FFFFFF;
+    top: 30px;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    z-index: 10;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+    
+}
+
+.slider li:nth-child(2) label {
+    left: 50px;
+}
+
+.slider li:nth-child(3) label {
+    left: 90px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.body h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    margin-left: 32%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.item {
+    display: inline-block;
+    padding-right: -15px;
+}
+
+.item img {
+    margin-left: 250px;
+}
+
+.button button{
+    background-color: #D2AD27;
+    color: #000000;
+    border:none;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline block;
+    font-size: 16px;
+}
+
+.button #bt1 {
+    margin-left: 17.6%;
+    margin-top: 2%;
+}
+
+.button #bt2 {
+    margin-left: 24.4%;
+}
+
+
+.button #bt3 {
+    margin-left: 24.5%;
+}
+
+
+footer{
+    width: 1920px;
+    height: 294px;
+    margin-top: 290px;
+    
+    background: #16002D;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-family: 'Inter',sans-serif;
+}/*========================= -------------- ---------============================*/
+/*========================= -------------- ---------============================*/
+ /*FOOTER CONTATOS*/
+
+.contitle,.eml,.tele{
+    color: white;
+}
+
+.contacto{
+
+    position: relative;
+    height: 294px;
+    width: 499px;
+
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contitle{
+     text-align: center;
+ 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+margin-top: 40px;
+
+}
+
+.email{
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+     
+    
+    margin-top: 30px;
+    height: 70px;
+    width: 414px;
+}
+
+
+
+.tel{
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    height: 70px;
+    width: 414px;
+}
+
+
+.eml{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.tele{
+  
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+.icon{
+    width: 60px;
+    height: 59.59px;
+    
+}
+/*========================= -------------- ---------============================*/
+/*FOOTER HORARIOS*/
+
+
+
+.hora{
+    
+
+    display: flex;
+    flex-direction: column;
+    height: 294px;
+    width: 499px;
+    
+}
+
+
+
+
+ .cop,.desc,.htitle{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+.htitle{
+    text-align: center;
+ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 40px;
+}
+
+
+.desc{
+    margin-top: 29px;
+    width: 483px;
+    height: 74px;
+    text-align: center;
+ 
+}
+
+
+.quebra{
+    text-align: center;
+}
+
+
+.cop{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+/*========================= -------------- ---------============================*/
+/*========================= -------------- ---------============================*/
+/*Desenvolvedores*/
+
+
+.dev{
+    height: 294px;
+    width: 499px;
+   
+}
+.devtitle{
+     
+ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 40px;
+
+}
+
+
+.devtitle,.listdev{
+    color: white;
+    text-align: center;
+}
+
+
+.listdev{
+    margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    margin-top: 5px;
+}
+
+/*========================= -------------- ---------============================*/
+/*Local*/
+
+.local{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 294px;
+    width: 499px;
+   }
+
+.loctitle,.ender{
+    color: white;
+    text-align: center;
+}
+
+.loctitle{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 40px;
+
+}
+.map{
+    margin-top: 5px;
+    height: 179px;
+width: 220px;
+ 
+}
+
+.ender{
+    margin-top: 10px;
+    font-size: 10px;
+
+}
