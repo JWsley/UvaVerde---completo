@@ -47,6 +47,10 @@ header{
 
 }
 
+.nav a:hover{
+    color: green;
+}
+
 
 li{
     margin-left: 3px;
